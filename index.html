@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Timlock consulting services. Website coming soon.">
+  <title>Timlock | Consulting</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+
+    :root {
+      --ink: #242424;
+      --muted: #777;
+      --paper: #fafaf8;
+      --line: #deded9;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: 'Manrope', sans-serif;
+    }
+
+    .page {
+      display: flex;
+      flex-direction: column;
+      width: min(100% - 48px, 760px);
+      min-height: 100vh;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .mark {
+      color: var(--ink);
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .header-label {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    main {
+      flex: 1;
+      padding: clamp(96px, 20vh, 190px) 0;
+    }
+
+    h1 {
+      max-width: 600px;
+      margin: 0;
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 600;
+      letter-spacing: -0.05em;
+      line-height: 1;
+    }
+
+    .intro {
+      max-width: 480px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 24px 0 28px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+
+    @media (max-width: 700px) {
+      .site-header {
+        padding: 22px 0;
+      }
+
+      .header-label {
+        font-size: 0.7rem;
+      }
+
+      main {
+        padding: 76px 0 96px;
+      }
+
+      footer {
+        display: block;
+        line-height: 1.8;
+      }
+
+      footer span {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="mark" href="/" aria-label="Timlock home">Timlock</a>
+      <p class="header-label">Independent consulting / Australia</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="page-title">
+        <h1 id="page-title">Under construction.</h1>
+        <p class="intro">Timlock consulting services are taking shape. Please check back soon.</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 Timlock</span>
+      <span>Australia</span>
+    </footer>
+  </div>
+</body>
+</html>
